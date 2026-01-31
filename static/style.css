@@ -24,7 +24,7 @@ header {
     cursor: pointer;
 }
 #menu-button:hover, #chat-button:hover {
-    color: rgb(189, 236, 248);
+    color: #fafafa;
 }
 
 #chat-img {
@@ -44,7 +44,7 @@ header {
     border: 2px solid black;
     border-bottom: 6px solid black;
     border-right: 6px solid black;
-    height: 37px;
+    height: 20px;
     width: auto;
     object-fit: contain;
 }
