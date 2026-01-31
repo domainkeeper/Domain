@@ -4,6 +4,11 @@ body {
     background-color: #a8f5fc;
 }
 
+@font-face {
+    font-family: "DomainFont";
+    src: url("../static/fonts/editundo.ttf");
+}
+
 header {
     margin: 5px;
     background-color: #fafafa;
@@ -14,6 +19,7 @@ header {
     padding: 10px;
     gap: 10px;
     display: flex;
+    width: auto;
     align-items: center;
     justify-content: space-between;
 }
@@ -47,4 +53,75 @@ header {
     height: 20px;
     width: auto;
     object-fit: contain;
+}
+
+#side-menu {
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    height: 105%;
+    width: 10%;
+    min-width: 120px;
+    background-color: #d5fcd6;
+    border: #000102 3px solid;
+    border-bottom: #00080e 6px solid;
+    border-right: #00060a 6px solid ;
+    border-radius: 25px ;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    padding: 1%;
+}
+
+#side-menu button {
+    background-color: #fd7676;
+    border: 2px solid black;
+    border-bottom: #000102 4px solid;
+    border-right: #000102 4px solid;
+    border-radius: 15px;
+    cursor: pointer;
+    height: 100%;
+    width : 100%;
+    min-height: 40px;
+    min-width: 120px;
+    font-weight: 400;
+    font-size: 22px;
+    font-family: "DomainFont";
+    margin: 5px 0;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+#main-panel {
+    margin: 5px;
+    height: 200%;
+    min-height: none;
+    min-width: none;
+    width: 50%;
+    background-color: #fff;
+    border: #000102 3px solid;
+    border-bottom: #00080e 6px solid;
+    border-right: #00060a 6px solid ;
+    border-radius: 25px ;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+}
+
+#chat-panel {
+    margin: 5px;
+    height: 110%;
+    min-height: none;
+    min-width: none;
+    width: 30%;
+    background-color: #fff;
+    border: #000102 3px solid;
+    border-bottom: #00080e 6px solid;
+    border-right: #00060a 6px solid ;
+    border-radius: 25px ;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
